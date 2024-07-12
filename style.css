@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: "Lato", sans-serif;
+    background-color: #F2F5F9;
+}
+div{
+    position: relative;
+    /* border: 10px solid black; */
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 418px;
+    border-radius: 1rem;
+    margin-top: 150px;
+    /* box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.15); */
+    background-color: #FFF;
+}
+/* header */
+header{
+    position: relative;
+}
+.img1 {
+    width: 418px;
+    border-radius: 1rem;
+    position: relative;
+}
+.honda{
+    
+    flex-direction: column;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    
+    z-index: 20;
+}
+
+
+/* article */
+article{
+    max-width: 368px;
+    margin: auto;
+}
+#titulo {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+p{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    color: #677489;
+    margin-bottom: 30px;
+}
+article img{
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    height: 50px;
+    border-radius: 25px;
+    border-color: #F2F5F9;
+}
+#nombre {
+    margin-bottom: 0px;
+}
+#p2{
+    margin-top: 0px;
+}
